@@ -1,0 +1,184 @@
+body 
+	{
+	background: white;
+	padding-bottom: 150px;
+	}
+
+a 	
+	{
+	color:red;
+	}
+
+/*<---Nav Board ---> */
+
+.nav
+	{
+	width: 100%;
+	background-color: white;
+	padding: 50px;
+	padding-top: 60px;
+	padding-right: 105px;
+	top: 0px;
+	padding-bottom: 80px;
+	}
+
+
+.nav-item 
+	{
+	background: white;
+	display: inline-block;
+	padding: 10px;
+	border-radius: 5px;
+	float: right;
+	text-decoration: none;
+	color: black;
+	font-family: helvetica;
+	font-size: 13px;
+	}
+
+
+.nav-item:hover
+	{
+	color: #FBB040;
+	} 
+
+
+.title h1
+	{
+	flex: 33.33 0 33.33%;
+	color: grey;
+	font-size: 12px;
+	font-family: courier new;
+	margin-left: 115px;
+	padding: 5px;
+	}
+
+.title h2
+	{
+	flex: 33.33 0 33.33%;
+	color: grey;
+	font-size: 12px;
+	font-family: courier new;
+	margin-left: 115px;
+	padding: 5px;
+	}
+
+
+.research 
+	{
+	display:flex;
+	flex-wrap: wrap;
+	}
+
+
+.research-item 
+	{
+	flex: 33.33 0 33.33%;
+	padding-left: 120px;
+	padding-right: 120px;
+	padding-top: 100px;
+	transition: 1s;
+	cursor: zoom-in;
+	}
+
+.research-item:hover
+	{
+	filter: grayscale (100%);
+	transform: scale(1.1);
+	}
+
+.research-item img
+	{
+	position: relative;
+	width: 100%;
+	}
+
+
+.research-item span
+	{
+	color: grey;
+	font-size: 10px;
+	font-family: courier new;
+	}
+
+
+/*<---Essay page ---> */
+
+
+.essay 
+	{
+	background-color: white;
+	display: flex;
+	flex-wrap: wrap;
+	font: courier new;
+	}
+
+
+.text 
+	{
+	flex: 33.33 0 66.66;
+	padding: 30px;
+	margin-left: 30px;
+	color: white;
+	font-size: 12px;
+	font-family: courier new;
+	}
+
+
+
+.text h1 
+	{
+	padding-bottom: 15px;
+	padding-right: 60px;
+	margin-left: 30px;
+	color: black;
+	font-family: impact;
+	font-size: 36px;
+	}
+
+.text h2
+	{
+	margin-left: 30px;
+	color: black;
+	font-family: impact;
+	font-size: 24px;
+	padding: 2px;
+	margin-bottom: 30px;
+	}
+
+.text p 
+	{
+	margin-bottom: 20px;
+	margin-right: 500px;
+	margin-left: 30px;
+	color: grey;
+	font-family: courier new;
+	font-size: 12px;
+	padding: 2px;
+	line-height: 19px;
+	}
+
+.figure 
+	{
+	flex: 0 0 33.33%;
+	padding: 10px;
+	}
+
+.figure span
+	{
+	font-size: 12px;
+	color: grey;
+	}
+
+.figure img 
+	{
+	width: 100%
+	padding: 50px;
+	}
+
+/*interactive classes*/
+
+
+
+
+

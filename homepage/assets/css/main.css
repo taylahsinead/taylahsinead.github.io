@@ -32,9 +32,14 @@ a
 	float: right;
 	text-decoration: none;
 	color: black;
-	font-family: helvetica;
+	font-family: impact;
 	font-size: 13px;
 	}
+
+.nav-item:hover
+	{
+	color: #78FFE5;
+	} 
 
 /*<---Page ---> */
 

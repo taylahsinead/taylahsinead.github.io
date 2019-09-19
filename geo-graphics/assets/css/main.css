@@ -2,166 +2,359 @@ body {
 	font-family: Helvetica,Arial,sans-serif;
 	font-size: 32px;
 	background-color: black;
-	color: white;
 }
 
-a {
-	color:red;
+/*blutooth*/
+.grid 
+	{
+  	width:100%;
+  	height:100vh;
+  	background-color:blue;
+  	display:flex;
+  	align-items:center;
+  	justify-content:center;
+}
+
+.grid img 
+	{
+  	width:100%;
+  	height: 100%;
+  	object-fit: contain;
+  	animation: rotate 3s linear infinite;
+	}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  90% {
+    transform: rotate(360deg);
+  }
 }
 
 
-.index-intro
+/*face-id*/
+.all-squares 
+	{
+  	background-color: black;
+  	display: flex;
+  	flex-wrap: wrap;
+	}
+
+.square-one 
+	{
+  	width: 150vh;
+  	height: 30vh;
+  	background-color: red;
+  	display: flex;
+  	flex-wrap: wrap;
+  	margin-left: 900px; 
+  	margin-top: 30px;
+/*animation*/
+  	animation-name:growUG;
+  	animation-duration:0.8s;
+  	animation-iteration-count: infinite;
+  	animation-timing-function: linear;
+  	animation-direction: alternate;
+	}
+
+@keyframes growUG {
+  	0% {
+    width:100px;
+  	}
+  	100% {
+    width:400px;
+  	}
+}
+
+.square-two 
+	{
+  	width: 40vh;
+  	height: 60vh;
+  	background-color: black;
+  	border: 2px red;
+  	outline-style: solid;
+  	outline-color: red;
+  	display: flex;
+  	flex-wrap: wrap;
+  	margin-left: 300px; 
+  	}
+  
+
+/*coordinates*/
+.coordinates 
 {
-	font-size: 18px;
-	margin-bottom: 25vh;
-	padding: 10px;
+  	width: 100%;
+  	height: 100vh;
+  	background-color: black;
+  	color: white;
+  	display: flex;
+  	flex-wrap: wrap;
+  	align-content: space-between;
+  	font-family: Helvetica,Arial,sans-serif;
 }
 
-.index-row
+.x 
 {
-	display: flex;
-	flex-wrap: wrap;
-	padding: 10px;
-	margin-bottom: 5px;
-	margin-top: 5px;
-	border-top: 2px solid white;
-
+  	font-size: 8vw;
+  	text-align: center;
+  	width: 100%;
+  	color: white;
+/*animation*/
+  	animation-name:spinUG;
+  	animation-duration:7s;
+ 	 animation-iteration-count: infinite;
+ 	 animation-timing-function: linear;
 }
 
-.index-name
-{
-	flex: 0 0 50%;
+@keyframes spinUG {
+  0% {
+    transform:rotate(0deg);
+  }
+  100% {
+    transform:rotate(360deg);
+}
 }
 
-.index-layer
+.line-1
 {
-	flex: 0 0 25%;
-}
-
-.index-tag
-{
-	flex: 0 0 25%;
-}
-
-
-/*IP Adress*/
-
-.ip
-{
+  	width: 70vh;
+	height: 1vh;
 	background-color: magenta;
-	height: 100vh;
-	width: 100vw;
+  	margin: auto;
+  	width: 50%;
+  	background-image: linear-gradient(to left, magenta, blue);
+}
+
+.y 
+{
+  	font-size: 8vw;
+  	text-align: center;
+  	width: 100%;
+  	color: white;
+/*animation*/
+  	animation-name:spinUG;
+  	animation-duration:7s;
+ 	 animation-iteration-count: infinite;
+ 	 animation-timing-function: linear;
+}
+
+@keyframes spinUG {
+  0% {
+    transform:rotate(0deg);
+  }
+  100% {
+    transform:rotate(360deg);
+}
+}
+
+
+/*hotspot*/
+.hotspot
+{
+	width:100%;
+  	height:100vh;
+  	display:flex;
+  	align-items:center;
+  	justify-content:center;
+}
+
+/*melways*/
+.gif 
+	{
+	position: absolute;
+	top:0px;
+	left:0px;
 	display: flex;
+	width:100%;
+	height: 100vh;
 	align-items: center;
 	justify-content: center;
-}
+	}
 
-.ip-text
-{
-	font-size: 14vw;
-	text-align: center;
-	color: blue;
-}
+.sorry-gif
+	{
+	background-color:white;
+	align-items: center;
+	}
 
-
-
-/*Checkers*/
-
-.checkers
-{
-	display: flex;
-	flex-wrap: wrap;
-}
-
-.checkers-white
-{
-	width: 50vw;
-	height: 50vh;
+.melways
+	{
 	background-color: white;
-}
-
-.checkers-black
-{
-	width: 50vw;
-	height: 50vh;
-	background-color: black;
-}
-
-
-/*Checkers type*/
-
-.checkers-type
-{
-	width: 100vw;
 	height: 100vh;
+	}
+
+.melways-img
+	{
+	width:100%;
+	height: 100%;
+  	background-color:white;
+	object-fit:cover;  
+	}
+
+/*number-plates*/
+.plates
+ 	{
+  	width:40%;
+  	height:100vh;
+  	background-color:white;
+  	display:flex;
+  	align-items:center;
+  	justify-content:center;
+}
+
+.plates img 
+	{
+  	width:100%;
+  	height: 100%;
+  	object-fit: contain;
+  	animation: rotate 5s linear infinite;
+	}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  80% {
+    transform: rotate(360deg);
+  }
+}
+
+
+/*afterpay*/
+}
+.afterpay-text 
+	{
+	position: absolute;
+	top:0px;
+	left:0px;
 	display: flex;
+	width:100%;
+	height: 100vh;
 	align-items: center;
 	justify-content: center;
-	position: fixed;
-	left: 0;
-	top: 0;
-}
+	border-radius: 100px;
+	box-shadow: 0px 0px 20px gray;
+	padding: 28px;
+	text-align: center;
+	}
 
-.checkers-text
+
+.first 
+	{
+  	font-family: helvetica;
+  	font-size: 105px;
+  	color:black;
+  	-webkit-text-stroke: 3px blue;
+	}
+
+.second 
+	{
+  	font-family: helvetica;
+  	color:black;
+  	font-size: 35px;
+  	-webkit-text-stroke: 2px #5000FF;
+	}
+
+.third 
+	{
+  	font-family:helvetica;
+  	color:black;
+  	font-size: 41.5px;
+  	-webkit-text-stroke: 2px #7600FF;
+	}
+
+
+/*email*/
+.email
 {
-	font-size: 30vw;
-	color: magenta;
-	border: 1px solid magenta;
-	padding: 2vw;
-	border-radius: 5vw;
-
+  	width:100%;
+  	height:100vh;
+  	background-color: white;
+  	display:flex;
+  	align-items:center;
+  	justify-content:center;
 }
 
+/*banking*/
+.banking 
+	{
+  	display: flex;
+  	flex-wrap:wrap;
+  	font-family:  Helvetica,Arial,sans-serif;
+  	color: white;
+  	font-size:6vw;
+	}
 
-/*Cloud Pattern*/
+.banking-cba 	
+	{
+  	width: 50%;
+  	height: 50vh;
+  	background-color: #FFCC00;
+  	display:flex;
+  	color: black;
+  	align-items:center;
+  	justify-content:center;
+	}
 
-.cloud-pattern
-{
-	display: flex;
-	flex-wrap: wrap;
+.banking-nab 
+	{
+  	width: 50%;
+  	height: 50vh;
+  	background-color: #EC1F27;
+  	display:flex;
+  	align-items:center;
+  	justify-content:center;
+	}
+
+.banking-anz 
+	{
+  	width: 50%;
+  	height: 50vh;
+  	background-color: #073F60;
+  	display:flex;
+  	align-items:center;
+  	justify-content:center;
+	}
+
+.banking-westpac 
+	{
+  	width: 50%;
+  	height: 50vh;
+  	background-color: #DD1F26;
+  	display:flex;
+  	align-items:center;
+  	justify-content:center;
+	}
+
+
+/*social media*/
+.social-media
+	{
+  	width:100%;
+  	height:100vh;
+  	background-color: yellow;
+  	display:flex;
+  	align-items:center;
+  	justify-content:center;
 }
 
-.cloud-circle
-{
-	width: 25vw;
-	height: 33.33vh;
-	background-image: linear-gradient (blue,white);
-	border-radius: 50%;
+.social-media img 
+	{
+  	width:100%;
+  	height: 100%;
+  	object-fit: contain;
+  	animation: rotate 3s linear infinite;
+	}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  90% {
+    transform: rotate(360deg);
+  }
 }
-
-
-
-/*Chip-container*/
-
-
-.chip-container
-{
-	width: 100vw;
-	height: 100vw;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-.chip
-{
-	width: 60vh;
-	height: 60vh;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	border: 1px solid gray;
-	padding: 5vh;
-	background-color: blue;
-}
-.text
-{
-	color: gray;
-	font-size: 5vw;
-}
-
-
-
-
 
 
 

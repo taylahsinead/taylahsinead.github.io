@@ -1,27 +1,152 @@
-body {
-	font-family: Helvetica,Arial,sans-serif;
-	font-size: 32px;
-	background-color: black;
-}
+body 
+  {
+  background: white;
+  padding-bottom: 150px;
+  }
+
+a   
+  {
+  color:red;
+  }
+
+/*<---Nav Board ---> */
+
+.nav
+  {
+  width: 100%;
+  background-color: white;
+  padding: 50px;
+  padding-top: 60px;
+  padding-right: 105px;
+  top: 0px;
+  padding-bottom: 80px;
+  }
+
+
+.nav-item 
+  {
+  background: white;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 5px;
+  float: right;
+  text-decoration: none;
+  color: black;
+  font-family: impact;
+  font-size: 13px;
+  letter-spacing: 1px;
+  }
+
+.nav-item:hover
+  {
+  color: #FFAF73;
+  } 
+
+.image
+  {
+  position: relative;
+  width: 100%; 
+  }
+
+/*<---Main Page ---> */
+
+
+.title h1
+  {
+  color: black;
+  font-size: 35px;
+  font-family: avenir;
+  padding-bottom: 10px;
+  margin-right: 120px;
+  text-decoration: bold;
+  font-weight: bold;
+  text-align: right;
+  }
+
+.title h2
+  {
+  color: grey;
+  font-size: 12px;
+  font-family: avenir;
+  padding-bottom: 10px;
+  margin-right: 120px;
+  font-style: italic;
+  text-align: right;
+  }
+
+  
+
+
+.grid-main
+  {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 120px;
+  padding-right: 120px;
+  font-family: avenir;
+  font-size: 12px;
+  }
+
+.thumbnail 
+  {
+  flex: 0 0 33.33%;
+  padding: 20px;
+  }
+
+.thumbnail-content 
+  {
+  padding: 10px;
+  line-height: 25px;
+  transition: 1s;
+  cursor: ;
+  }
+
+.thumbnail-content img
+  {
+  position: relative;
+  padding: 10px;
+  width: 100%; 
+  }
+
+.number
+  {
+  color: grey;
+  font-weight: bold;
+  }
+
+.title1
+  {
+  color: black;
+  font-weight: bold;
+  }
+
+
+
+
+
+
+
+
+
 
 /*blutooth*/
 .grid 
-	{
-  	width:100%;
-  	height:100vh;
-  	background-color:blue;
-  	display:flex;
-  	align-items:center;
-  	justify-content:center;
+  {
+    width:100%;
+    height:100vh;
+    background-color:blue;
+    display:flex;
+    align-items:center;
+    justify-content:center;
 }
 
 .grid img 
-	{
-  	width:100%;
-  	height: 100%;
-  	object-fit: contain;
-  	animation: rotate 3s linear infinite;
-	}
+  {
+    width:100%;
+    height: 100%;
+    object-fit: contain;
+    animation: rotate 3s linear infinite;
+  }
 
 @keyframes rotate {
   0% {
@@ -35,76 +160,76 @@ body {
 
 /*face-id*/
 .all-squares 
-	{
-  	background-color: black;
-  	display: flex;
-  	flex-wrap: wrap;
-	}
+  {
+    background: black;
+    display: flex;
+    flex-wrap: wrap;
+  }
 
 .square-one 
-	{
-  	width: 150vh;
-  	height: 30vh;
-  	background-color: red;
-  	display: flex;
-  	flex-wrap: wrap;
-  	margin-left: 900px; 
-  	margin-top: 30px;
+  {
+    width: 150vh;
+    height: 30vh;
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 900px; 
+    margin-top: 30px;
 /*animation*/
-  	animation-name:growUG;
-  	animation-duration:0.8s;
-  	animation-iteration-count: infinite;
-  	animation-timing-function: linear;
-  	animation-direction: alternate;
-	}
+    animation-name:growUG;
+    animation-duration:0.8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+  }
 
 @keyframes growUG {
-  	0% {
+    0% {
     width:100px;
-  	}
-  	100% {
+    }
+    100% {
     width:400px;
-  	}
+    }
 }
 
 .square-two 
-	{
-  	width: 40vh;
-  	height: 60vh;
-  	background-color: black;
-  	border: 2px red;
-  	outline-style: solid;
-  	outline-color: red;
-  	display: flex;
-  	flex-wrap: wrap;
-  	margin-left: 300px; 
-  	}
+  {
+    width: 40vh;
+    height: 60vh;
+    background-color: black;
+    border: 2px red;
+    outline-style: solid;
+    outline-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 300px; 
+    }
   
 
 /*coordinates*/
 .coordinates 
 {
-  	width: 100%;
-  	height: 100vh;
-  	background-color: black;
-  	color: white;
-  	display: flex;
-  	flex-wrap: wrap;
-  	align-content: space-between;
-  	font-family: Helvetica,Arial,sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    font-family: Helvetica,Arial,sans-serif;
 }
 
 .x 
 {
-  	font-size: 8vw;
-  	text-align: center;
-  	width: 100%;
-  	color: white;
+    font-size: 8vw;
+    text-align: center;
+    width: 100%;
+    color: white;
 /*animation*/
-  	animation-name:spinUG;
-  	animation-duration:7s;
- 	 animation-iteration-count: infinite;
- 	 animation-timing-function: linear;
+    animation-name:spinUG;
+    animation-duration:7s;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear;
 }
 
 @keyframes spinUG {
@@ -118,25 +243,25 @@ body {
 
 .line-1
 {
-  	width: 70vh;
-	height: 1vh;
-	background-color: magenta;
-  	margin: auto;
-  	width: 50%;
-  	background-image: linear-gradient(to left, magenta, blue);
+    width: 70vh;
+  height: 1vh;
+  background-color: magenta;
+    margin: auto;
+    width: 50%;
+    background-image: linear-gradient(to left, magenta, blue);
 }
 
 .y 
 {
-  	font-size: 8vw;
-  	text-align: center;
-  	width: 100%;
-  	color: white;
+    font-size: 8vw;
+    text-align: center;
+    width: 100%;
+    color: white;
 /*animation*/
-  	animation-name:spinUG;
-  	animation-duration:7s;
- 	 animation-iteration-count: infinite;
- 	 animation-timing-function: linear;
+    animation-name:spinUG;
+    animation-duration:7s;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear;
 }
 
 @keyframes spinUG {
@@ -152,64 +277,64 @@ body {
 /*hotspot*/
 .hotspot
 {
-	width:100%;
-  	height:100vh;
-  	display:flex;
-  	align-items:center;
-  	justify-content:center;
+  width:100%;
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
 }
 
 /*melways*/
 .gif 
-	{
-	position: absolute;
-	top:0px;
-	left:0px;
-	display: flex;
-	width:100%;
-	height: 100vh;
-	align-items: center;
-	justify-content: center;
-	}
+  {
+  position: absolute;
+  top:0px;
+  left:0px;
+  display: flex;
+  width:100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  }
 
 .sorry-gif
-	{
-	background-color:white;
-	align-items: center;
-	}
+  {
+  background-color:white;
+  align-items: center;
+  }
 
 .melways
-	{
-	background-color: white;
-	height: 100vh;
-	}
+  {
+  background-color: white;
+  height: 100vh;
+  }
 
 .melways-img
-	{
-	width:100%;
-	height: 100%;
-  	background-color:white;
-	object-fit:cover;  
-	}
+  {
+  width:100%;
+  height: 100%;
+    background-color:white;
+  object-fit:cover;  
+  }
 
 /*number-plates*/
 .plates
- 	{
-  	width:40%;
-  	height:100vh;
-  	background-color:white;
-  	display:flex;
-  	align-items:center;
-  	justify-content:center;
+  {
+    width:40%;
+    height:100vh;
+    background-color:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
 }
 
 .plates img 
-	{
-  	width:100%;
-  	height: 100%;
-  	object-fit: contain;
-  	animation: rotate 5s linear infinite;
-	}
+  {
+    width:100%;
+    height: 100%;
+    object-fit: contain;
+    animation: rotate 5s linear infinite;
+  }
 
 @keyframes rotate {
   0% {
@@ -224,128 +349,129 @@ body {
 /*afterpay*/
 }
 .afterpay-text 
-	{
-	position: absolute;
-	top:0px;
-	left:0px;
-	display: flex;
-	width:100%;
-	height: 100vh;
-	align-items: center;
-	justify-content: center;
-	border-radius: 100px;
-	box-shadow: 0px 0px 20px gray;
-	padding: 28px;
-	text-align: center;
-	}
+  {
+  background-color: black;
+  position: absolute;
+  top:0px;
+  left:0px;
+  display: flex;
+  width:100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  box-shadow: 0px 0px 20px gray;
+  padding: 28px;
+  text-align: center;
+  }
 
 
 .first 
-	{
-  	font-family: helvetica;
-  	font-size: 105px;
-  	color:black;
-  	-webkit-text-stroke: 3px blue;
-	}
+  {
+    font-family: helvetica;
+    font-size: 105px;
+    color:white;
+    -webkit-text-stroke: 3px blue;
+  }
 
 .second 
-	{
-  	font-family: helvetica;
-  	color:black;
-  	font-size: 35px;
-  	-webkit-text-stroke: 2px #5000FF;
-	}
+  {
+    font-family: helvetica;
+    color:white;
+    font-size: 35px;
+    -webkit-text-stroke: 2px #5000FF;
+  }
 
 .third 
-	{
-  	font-family:helvetica;
-  	color:black;
-  	font-size: 41.5px;
-  	-webkit-text-stroke: 2px #7600FF;
-	}
+  {
+    font-family:helvetica;
+    color-gradient: ;
+    font-size: 41.5px;
+    -webkit-text-stroke: 2px #7600FF;
+  }
 
 
 /*email*/
 .email
 {
-  	width:100%;
-  	height:100vh;
-  	background-color: white;
-  	display:flex;
-  	align-items:center;
-  	justify-content:center;
+    width:100%;
+    height:100vh;
+    background-color: white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
 }
 
 /*banking*/
 .banking 
-	{
-  	display: flex;
-  	flex-wrap:wrap;
-  	font-family:  Helvetica,Arial,sans-serif;
-  	color: white;
-  	font-size:6vw;
-	}
+  {
+    display: flex;
+    flex-wrap:wrap;
+    font-family:  Helvetica,Arial,sans-serif;
+    color: white;
+    font-size:6vw;
+  }
 
-.banking-cba 	
-	{
-  	width: 50%;
-  	height: 50vh;
-  	background-color: #FFCC00;
-  	display:flex;
-  	color: black;
-  	align-items:center;
-  	justify-content:center;
-	}
+.banking-cba  
+  {
+    width: 50%;
+    height: 50vh;
+    background-color: #FFCC00;
+    display:flex;
+    color: black;
+    align-items:center;
+    justify-content:center;
+  }
 
 .banking-nab 
-	{
-  	width: 50%;
-  	height: 50vh;
-  	background-color: #EC1F27;
-  	display:flex;
-  	align-items:center;
-  	justify-content:center;
-	}
+  {
+    width: 50%;
+    height: 50vh;
+    background-color: #EC1F27;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
 
 .banking-anz 
-	{
-  	width: 50%;
-  	height: 50vh;
-  	background-color: #073F60;
-  	display:flex;
-  	align-items:center;
-  	justify-content:center;
-	}
+  {
+    width: 50%;
+    height: 50vh;
+    background-color: #073F60;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
 
 .banking-westpac 
-	{
-  	width: 50%;
-  	height: 50vh;
-  	background-color: #DD1F26;
-  	display:flex;
-  	align-items:center;
-  	justify-content:center;
-	}
+  {
+    width: 50%;
+    height: 50vh;
+    background-color: #DD1F26;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
 
 
 /*social media*/
 .social-media
-	{
-  	width:100%;
-  	height:100vh;
-  	background-color: yellow;
-  	display:flex;
-  	align-items:center;
-  	justify-content:center;
+  {
+    width:100%;
+    height:100vh;
+    background-color: yellow;
+    display:flex;
+    align-items:center;
+    justify-content:center;
 }
 
 .social-media img 
-	{
-  	width:100%;
-  	height: 100%;
-  	object-fit: contain;
-  	animation: rotate 3s linear infinite;
-	}
+  {
+    width:100%;
+    height: 100%;
+    object-fit: contain;
+    animation: rotate 3s linear infinite;
+  }
 
 @keyframes rotate {
   0% {

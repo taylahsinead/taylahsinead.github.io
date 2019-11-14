@@ -1,0 +1,497 @@
+body 
+	{
+	background: white;
+	padding-bottom: 150px;
+	}
+
+a 	
+	{
+	color:red;
+	}
+
+/*<---Nav Board ---> */
+
+.nav
+	{
+	width: 100%;
+	background-color: white;
+	padding: 50px;
+	padding-top: 60px;
+	padding-right: 105px;
+	top: 0px;
+	}
+
+.nav-item 
+	{
+	background: white;
+	display: inline-block;
+	padding: 10px;
+	border-radius: 5px;
+	float: right;
+	text-decoration: none;
+	color: black;
+	font-family: impact;
+	font-size: 13px;
+	letter-spacing: 1px;
+	}
+
+.nav-item:hover
+	{
+	color: #FFAF73;
+	} 
+
+.nav1
+	{
+	width: 100%;
+	color: black;
+	padding-right: 105px;
+	top: 0px;
+	padding-bottom: 80px;
+	}
+
+.nav-item1 
+	{
+	background: white;
+	display: inline-block;
+	padding: 10px;
+	border-radius: 5px;
+	float: right;
+	text-decoration: none;
+	color: black;
+	font-family: impact;
+	font-size: 11.2px;
+	letter-spacing: 1px;
+	}
+
+.nav-item1:hover
+	{
+	color: #FFAF73;
+	} 
+
+/*<---Page ---> */
+
+body 
+	{
+	font-family: avenir;
+	font-size: 11px;
+	color: grey;
+	}
+
+a 
+	{
+	color:red;
+	}
+
+.title h1
+	{
+	color: black;
+	font-size: 35px;
+	font-family: avenir;
+	padding-bottom: 10px;
+	margin-right: 120px;
+	text-decoration: bold;
+	font-weight: bold;
+	text-align: right;
+	}
+
+.title h2
+	{
+	color: grey;
+	font-size: 12px;
+	font-family: avenir;
+	padding-bottom: 10px;
+	margin-right: 120px;
+	font-style: italic;
+	text-align: right;
+	}
+
+
+.grid 
+	{
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: 115px;
+	margin-left: 70px;
+	}
+
+.right 
+	{
+	color: white;
+	background-color: white;
+	flex:0 0 50%;
+	height: 80vh;
+	overflow: scroll;
+
+	}
+
+.right-content 
+	{
+	padding-top: 30px;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-bottom: 50px;
+	text-align: justify;
+	line-height: 25px;
+	}
+
+.right-content h1
+	{
+	font-size: 12px;
+	color: black;
+	text-align: left;
+	text-transform: uppercase;
+	font-weight: bold;
+	}
+
+.left 
+	{
+	color: black;
+	background-color: wh;
+	flex:0 0 50%;
+	height: 80vh;
+	overflow: scroll;	
+	}
+
+.left-content 
+	{
+	padding: 50px;
+	text-align: justify;
+	color: grey;
+	line-height: 25px;
+	}
+
+.left-content h1
+	{
+	font-size: 13px;
+	color: black;
+	text-transform: uppercase;
+	text-align: right;
+	font-weight: bold;
+	}
+
+.left img 
+	{
+	width: 100%;
+	}
+
+
+/*<--- right CONTENT ---> */
+
+.strawberries
+	{
+	background: linear-gradient(to right, #FF7171, #FFFFFF);
+	text-transform: uppercase;
+	text-align: left;
+	font-weight: bold;
+	padding: 20px;
+	padding-left: 20px;
+	}
+
+.raspberries
+	{
+	background: linear-gradient(to right, #FF71A4, #FFFFFF);
+	text-transform: uppercase;
+	text-align: left;
+	font-weight: bold;
+	padding: 20px;
+	padding-left: 20px;
+	}
+
+.himalayansalt
+	{
+	background: linear-gradient(to right, #FF9FE4, #FFFFFF);
+	text-transform: uppercase;
+	text-align: left;
+	font-weight: bold;
+	padding: 20px;
+	padding-left: 20px;
+	}
+
+.flaxseeds
+	{
+	background: linear-gradient(to right,  #F8D7F9, #FFFFFF);
+	text-transform: uppercase;
+	text-align: left;
+	font-weight: bold;
+	padding: 20px;
+	padding-left: 20px;
+	}
+
+.hempseeds
+	{
+	background: linear-gradient(to right,  #F9CAC0, #FFFFFF);
+	text-transform: uppercase;
+	text-align: left;
+	font-weight: bold;
+	padding: 20px;
+	padding-left: 20px;
+	}
+
+.macapowder
+	{
+	background: linear-gradient(to right,  #F7BD84, #FFFFFF);
+	text-transform: uppercase;
+	text-align: left;
+	font-weight: bold;
+	padding: 20px;
+	padding-left: 20px;
+	}
+
+.mango
+	{
+	background: linear-gradient(to right,  #FFAA71, #FFFFFF);
+	text-transform: uppercase;
+	text-align: left;
+	font-weight: bold;
+	padding: 20px;
+	padding-left: 20px;
+	}
+
+.peanutbutter
+	{
+	background: linear-gradient(to right,  #FFC440, #FFFFFF);
+	text-transform: uppercase;
+	text-align: left;
+	font-weight: bold;
+	padding: 20px;
+	padding-left: 20px;
+	}
+
+.bananas
+	{
+	background: linear-gradient(to right, #FFFA55, #FFFFFF);
+	color: #E0E0E0;
+	text-transform: uppercase;
+	text-align: left;
+	font-weight: bold;
+	padding: 20px;
+	padding-left: 20px;
+	}
+
+.coconutmilk
+	{
+	background: linear-gradient(to right, #FFFEE6, #FFFFFF);
+	color: #E0E0E0;
+	text-transform: uppercase;
+	text-align: left;
+	font-weight: bold;
+	padding: 20px;
+	padding-left: 20px;
+	}
+
+.kale
+	{
+	background: linear-gradient(to right, #A9E880, #FFFFFF);
+	text-transform: uppercase;
+	text-align: left;
+	font-weight: bold;
+	padding: 20px;
+	padding-left: 20px;
+	}
+
+.spinach
+	{
+	background: linear-gradient(to right, #6BAA82, #FFFFFF);
+	text-transform: uppercase;
+	text-align: left;
+	font-weight: bold;
+	padding: 20px;
+	padding-left: 20px;
+	}
+
+.blueberries
+	{
+	background: linear-gradient(to right, #55BAFF, #FFFFFF);
+	text-transform: uppercase;
+	text-align: left;
+	font-weight: bold;
+	padding: 20px;
+	padding-left: 20px;
+	}
+
+.coconutwater
+	{
+	background: linear-gradient(to right, #D2F0F9, #FFFFFF);
+	text-transform: uppercase;
+	text-align: left;
+	font-weight: bold;
+	padding: 20px;
+	padding-left: 20px;
+	}
+
+.coconutoil
+	{
+	background: linear-gradient(to right, #E6E8E8, #FFFFFF);
+	text-transform: uppercase;
+	text-align: left;
+	font-weight: bold;
+	padding: 20px;
+	padding-left: 20px;
+	}
+
+
+.almondmilk
+	{
+	background: linear-gradient(to right, #CEAF99, #FFFFFF);
+	text-transform: uppercase;
+	text-align: left;
+	font-weight: bold;
+	padding: 20px;
+	padding-left: 20px;
+	}
+
+.drieddates
+	{
+	background: linear-gradient(to right, #CE9999, #FFFFFF);
+	text-transform: uppercase;
+	text-align: left;
+	font-weight: bold;
+	padding: 20px;
+	padding-left: 20px;
+	}
+
+.chiaseeds
+	{
+	background: linear-gradient(to right, #BA7A63, #FFFFFF);
+	text-transform: uppercase;
+	text-align: left;
+	font-weight: bold;
+	padding: 20px;
+	padding-left: 20px;
+	}
+
+.cacaopowder
+	{
+	background: linear-gradient(to right, #634747, #FFFFFF);
+	text-transform: uppercase;
+	text-align: left;
+	font-weight: bold;
+	padding: 20px;
+	padding-left: 20px;
+	}
+
+
+
+
+
+
+
+
+
+
+/*<--- Recipes ---> */
+
+
+.grid1
+	{
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: 120px;
+	padding-right: 120px;
+	}
+
+.thumbnail 
+	{
+	flex: 0 0 33.33%;
+	padding: 10px;
+	}
+
+.thumbnail-content 
+	{
+	padding: 0px;
+	line-height: 25px;
+	}
+
+.number
+	{
+	font-weight: bold;
+	margin-left: 25px;
+	}
+
+.title1
+	{
+	font-weight: bold;
+	margin-left: 25px;
+	}
+
+.author
+	{
+	font-family: avenir;
+	font-weight: lighter;
+	margin-left: 25px;
+	}
+
+.thumbnail img 
+	{
+	width:100%;
+	}
+
+
+
+
+
+
+
+
+.table {
+	margin-top: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	margin-right: -1600px;
+	margin-left: 0px;
+
+}
+.middle 
+	{
+	color: black;
+	background-color: wh;
+	flex:0 0 50%;
+	height: 80vh;
+	overflow: scroll;	
+	}
+
+.middle-content 
+	{
+	padding: 50px;
+	text-align: justify;
+	color: grey;
+	line-height: 25px;
+	}
+
+
+.row {
+	display: flex;
+	flex-wrap:wrap;
+	border-top: 2px solid black;
+	padding: 10px;
+	margin-right: 250px;
+	margin-left: 150px;
+}
+
+.title 
+	{
+	flex:0 0 50%;
+	color: black;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.title:hover
+{
+	color: #FF7171;
+}
+
+.type {
+	flex:0 0 25%;
+}
+
+.date {
+	flex:0 0 25%;
+}
+
+
+
+
+
+
